@@ -1,4 +1,4 @@
-# 通過這個代碼可以讓我們利用Etherscan、Bscscan等網站中的API，抓取我們想要了解的遊戲合約交易記錄。
-需要資訊：
+# Through this code we can make use of the APIs in Etherscan, Bscscan and other websites to grab the transaction records of the game contracts we want to know.
+Need：
 1.API key
-2.合約地址
+2.User / contacts Address
