@@ -21,7 +21,7 @@ data_list = []
 
 for items in df_list:
     # API-1
-    url = "https://api.bscscan.com/api?module=account&action=txlist&address={}&startblock=0&endblock=99999999&page=1&offset=10000&sort=asc&apikey=751CDDEMJGZMZ13SHPAFCKPI4842V6SIG4".format(items)
+    url = "https://api.bscscan.com/api?module=account&action=txlist&address={}&startblock=0&endblock=99999999&page=1&offset=10000&sort=asc&apikey=YourApiKey".format(items)
     response = requests.get(url)
     data = json.loads(response.text)
     data_list.extend(data['result'])
