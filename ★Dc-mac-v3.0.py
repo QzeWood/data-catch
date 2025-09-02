@@ -31,7 +31,7 @@ with open('/Users/wood/Desktop/UXLab/data_v2/Mobox-v2.csv', 'a', newline='') as 
             else:
                 continue
             start_time1 = time.time()
-            url = "https://api.bscscan.com/api?module=account&action=txlist&address={}&startblock=0&endblock=99999999&page=1&offset=10000&sort=asc&apikey=751CDDEMJGZMZ13SHPAFCKPI4842V6SIG4".format(item)
+            url = "https://api.bscscan.com/api?module=account&action=txlist&address={}&startblock=0&endblock=99999999&page=1&offset=10000&sort=asc&apikey=YourApiKey".format(item)
             # API-1
             # url = "https://api.bscscan.com/api?module=account&action=txlist&address={}&startblock=0&endblock=99999999&page=1&offset=10000&sort=asc&apikey=2WEFUT419XVIBYRP4U1IG4BGZEBIH6T1PZ".format(item)
             # API-2
